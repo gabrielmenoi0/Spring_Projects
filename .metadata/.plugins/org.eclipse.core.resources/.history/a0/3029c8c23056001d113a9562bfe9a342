@@ -1,0 +1,16 @@
+package primeiro_projeto;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double x = 10.0;
+		
+		System.out.println("Print com quebra de linha");
+		System.out.print("Print normal");
+		System.out.println();
+		System.out.printf("Valor-> %.2f",x);
+
+	}
+
+}

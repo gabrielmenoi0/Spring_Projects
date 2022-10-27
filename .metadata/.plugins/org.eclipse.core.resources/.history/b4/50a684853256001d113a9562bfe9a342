@@ -1,0 +1,33 @@
+package primeiro_projeto;
+
+import java.util.Scanner;
+
+/**
+ * @author Persys
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double x = 10.00000;
+		String name = "Gabriel";
+		int age = 25;
+		
+		System.out.println("Print com quebra de linha");
+		System.out.print("Print normal");
+		System.out.println();
+		System.out.printf("Valor-> %.2f",x);
+		System.out.println();
+		System.out.print("O valor x é "+x);
+		System.out.println();
+//		System.out.printf("Nome %s, tem %d anos e ganha %2.f reais%n ",name,age,x);
+		
+//		Entrada de dados
+		Scanner sc = new Scanner(System.in);
+		sc.next();
+		sc.close();
+
+	}
+
+}
